@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+  </head>
+
+  <body class="container">
+    <header class="header">
+      <nav class="header__nav">
+        <section class="header__nav-left">
+          <a href="#" class="header__link">
+            <img
+              src="images/logo.svg"
+              alt="Main logo"
+              class="header__main-logo"
+            />
+          </a>
+        </section>
+
+        <section class="header__nav-right">
+          <a href="#cta" class="header__nav-cta">Try It Free</a>
+        </section>
+      </nav>
+    </header>
+
+    <main class="main-container">
+      <section class="hero-bg">
+        <img
+          src="images/bg-hero-desktop.svg"
+          alt="Hero desktop image"
+          class="hero-bg__desktop"
+        />
+        <img
+          src="images/bg-hero-mobile.svg"
+          alt="Hero mobile image"
+          class="hero-bg__mobile"
+        />
+      </section>
+
+      <section class="hero">
+        <div class="hero__text-box">
+          <h1 class="hero__heading-primary">
+            Build The Community Your Fans Will Love
+          </h1>
+          <p class="hero__description">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <a href="#cta" class="hero__btn">Get Started For Free</a>
+        </div>
+        <div class="hero__img-hero-box">
+          <img src="images/illustration-mockups.svg" alt="Mockups" />
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="feature">
+          <div class="feature__text-box">
+            <h2 class="feature__title">Grow Together</h2>
+            <p class="feature__text">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+
+          <img
+            src="images/illustration-grow-together.svg"
+            alt="Illustration grow together"
+            class="feature__img-feature"
+          />
+        </div>
+
+        <div class="feature">
+          <img
+            src="images/illustration-flowing-conversation.svg"
+            alt="Illustration flowing conversation"
+            class="feature__img-feature"
+          />
+
+          <div class="feature__text-box">
+            <h2 class="feature__title">Flowing Conversations</h2>
+            <p class="feature__text">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature__text-box">
+            <h2 class="feature__title">Your Users</h2>
+            <p class="feature__text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+
+          <img
+            src="images/illustration-your-users.svg"
+            alt="Illustration your users"
+            class="feature__img-feature"
+          />
+        </div>
+      </section>
+
+      <section class="cta">
+        <h3 class="cta__title">Ready To Build Your Community?</h3>
+        <button class="cta__btn">Get Started For Free</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <svg class="footer__main-logo">
+          <use xlink:href="images/sprite.svg#logo-footer"></use>
+        </svg>
+      </div>
+
+      <div class="footer__contacts">
+        <div class="footer__contact-us-box">
+          <div class="footer__icon-location-box">
+            <svg class="footer__icon-location">
+              <use xlink:href="images/sprite.svg#icon-location"></use>
+            </svg>
+
+            <p class="footer__info-location">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+
+          <div class="footer__icon-phone-box">
+            <svg class="footer__icon-phone">
+              <use xlink:href="images/sprite.svg#icon-phone"></use>
+            </svg>
+            <p class="footer__phone-nr">
+              <a href="+1-543-123-4567" class="footer__phone-link"
+                >+1-543-123-4567</a
+              >
+            </p>
+          </div>
+
+          <div class="footer__icon-email-box">
+            <svg class="footer__icon-phone">
+              <use xlink:href="images/sprite.svg#icon-email"></use>
+            </svg>
+            <p class="footer__email">
+              <a href="example@huddle.com" class="footer__email-link"
+                >example@huddle.com</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <ul class="footer__links-list">
+            <li class="footer__links-list-item">
+              <a href="#">About Us</a>
+            </li>
+            <li class="footer__links-list-item">
+              <a href="#">What We Do</a>
+            </li>
+            <li class="footer__links-list-item">
+              <a href="#">FAQ</a>
+            </li>
+          </ul>
+
+          <ul class="footer__links-list">
+            <li class="footer__links-list-item">
+              <a href="#">Career</a>
+            </li>
+            <li class="footer__links-list-item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="footer__links-list-item">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <ul class="footer__social-list">
+            <li class="footer__social-list-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/facebook-svgrepo-com.svg"
+                  alt="Facebook icon"
+                />
+              </a>
+            </li>
+            <li class="footer__social-list-item">
+              <a href="#" class="footer__social-link">
+                <img src="images/twitter-svgrepo.svg" alt="Twitter icon" />
+              </a>
+            </li>
+            <li class="footer__social-list-item">
+              <a href="#" class="footer__social-link"
+                ><img
+                  src="images/instagram-with-circle-svgrepo-com.svg"
+                  alt="Instagram icon"
+              /></a>
+            </li>
+          </ul>
+          <div class="copyright">
+            <span
+              >&copy; Copyright <span class="year">2018</span> Huddle. All
+              rights reserved.</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        <p class="attribution__attr-content">
+          <span>Challenge by</span>
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          ><span>. Coded by </span
+          ><a href="https://github.com/AlgirdasU">Algirdas</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
